@@ -71,6 +71,8 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Nanum+Gothic&family=Nanum+Myeongjo&display=swap" rel="stylesheet"> 
+
+
 	</head>
 	<body>
 		
@@ -137,11 +139,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Hello!</h2>
+					<h2>초대합니다!</h2>
 					<h3>Saturday, January 8, 2022 12:10 PM</h3>
 					<h3>아르떼 채플&컨벤션</h3>
 					<h3>7F 컨벤션</h3>
-					<!-- <p>서린이와 홍준이의 결혼식에 초대합니다.</p> -->
 					<p>We invited you to celebrate our wedding</p>
 				</div>
 			</div>
@@ -152,7 +153,7 @@
 					</div>
 					<div class="desc-groom">
 						<h3>LIM HONG JUN</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+						<p>내용 추가?</p>
 					</div>
 				</div>
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
@@ -162,7 +163,7 @@
 					</div>
 					<div class="desc-bride">
 						<h3>CHOI SEO RIN</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+						<p>한줄 소개 추가?</p>
 					</div>
 				</div>
 			</div>
@@ -185,8 +186,8 @@
 							<!-- <div class="col-md-6 col-sm-6 text-center"> -->
 							<div class="col-md-8 col-md-offset-2 text-center ">
 								<div class="event-wrap animate-box">
-									<h3>Main Ceremony</h3>
-									<div class="event-col">
+									<h3>오시는 길</h3>
+									<!-- <div class="event-col">
 										<i class="icon-clock"></i>
 										<span>12:10 PM</span>
 										<span>13:00 PM</span>
@@ -195,10 +196,91 @@
 										<i class="icon-calendar"></i>
 										<span>토요일 8</span>
 										<span>1월, 2022</span>
+									</div> -->
+									<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p> -->
+									<img src="images/map.jpg" alt="map" class="img-responsive">
+									<br>
+									<div class="animate-box">
+										<div class="event-col">
+											<a href="https://map.naver.com/v5/entry/place/36929042?c=14133159.9767268,4494453.4568269,15,0,0,0,dh">
+					                                <img alt="naver-map" class="map-icon" id="naver-map"
+					                                     src="images/map/naver-map.png" height="60" width="60"/>
+				                            </a>
+										</div>
+										<div class="event-col">
+											<a href="http://kko.to/TeVCfUPfH">
+					                                <img alt="kakao-map" class="map-icon" id="kakao-map"
+					                                     src="images/map/kakao-map.png" height="60" width="60"/>
+				                            </a>
+										</div>
+										
 									</div>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<div class="remittance">
+						            	<h3>마음 전하실 곳</h3>
+						            	<p class="remittance_sub_title">"신랑 & 신부에게 축하의 마음을 전해주세요"</p>
+						            	<div class="remittance_btn_bx">
+						            		
+						            		<p class="btn_bx_1">
+						            			<span class="td input_husband"></span>
+						            			<a href="#" onclick="return false;" class="h_btn" style="background-color: #DCDDDE; color: black;">신랑측 계좌번호 보기</a>
+						            		</p>
+						            		
+						            		<p class="btn_bx_2">
+						            			<span class="td input_wife"></span>
+						            			<a href="#" onclick="return false;" class="w_btn" style="background-color: #DCDDDE; color: black;">신부측 계좌번호 보기</a>
+						            		</p>
+						            		
+						            	</div>
+						            	
+						            	<!-- 신랑측 계좌번호 팝업 시작 -->
+						            	<div class="remittance_pop_h" style="display: none; z-index: 1;">
+						            		<div class="remittance_pop_inner">
+						            			<p class="account_info" style="color: black;">신랑측 계좌번호</p>
+						            			<p class="account_h_c account_c grm_account_bank" style="font-size: 14px; color: black;">신랑 / 우리은행, 예금주 : 임홍준</p>
+						            			<p class="account_num grm_account_num" id="h_num" style="color: black;">1002-953-880339</p>
+						            			
+						            			<a class="copy_btn" style="margin-top: -42px; height: 23px;" onclick="copyToClipboard('h_num')">복사하기</a>
+						            			
+						            			<br />
+						            			<a class="close_btn" href="#" onclick="return false;">닫기</a>
+						            		</div>
+						            	</div>
+						            	<!-- 신랑측 계좌번호 팝업 끝 -->
+						            	
+						            	<!-- 신부측 계좌번호 팝업 시작 -->
+						            	<div class="remittance_pop_w" style="display: none; z-index: 1;">
+						            		<div class="remittance_pop_inner">
+						            			<p class="account_info" style="color: black;">신부측 계좌번호</p>
+						            			<p class="account_w_c account_c brd_account_bank" style="font-size: 14px; color: black;">신부 혼주 / **은행, 예금주 : 최서린</p>
+						            			<p class="account_num brd_account_num" id="w_num" style="color: black;">***-******-***</p>
+						            			<a class="copy_btn" style="margin-top: -42px; height: 23px;" onclick="copyToClipboard('w_num')">복사하기</a>
+						            			<br />	            			
+						            			<a class="close_btn" href="#" onclick="return false;">닫기</a>
+						            		</div>
+						            	</div>
+						            	<!-- 신부측 계좌번호 팝업 시작 -->
+						            </div>
+								            
+						            <!-- 계좌번호 끝 -->
+					            	<!-- 신랑측 계좌번호 팝업 끝 -->
+											
+									
+									
+
+									<!-- <h3></h3> -->
+									<!-- <h3>2022년 1월 8일 토요일 오후 12시 10분 <br>아르떼 채플&컨벤션 <br>7F 컨벤션 </h3> -->
+									
+										<!-- </ul>	
+										<ul id="fh5co-gallery-list">
+											<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/map.jpg); "> 
+											<a href="images/map.jpg">
+											</a>
+										</li>
+										</ul>	 -->	
+									<!-- </div> -->
 								</div>
 							</div>
+							
 							<!-- <div class="col-md-6 col-sm-6 text-center">
 								<div class="event-wrap animate-box">
 									<h3>Wedding Party</h3>
@@ -639,6 +721,32 @@
         day: d.getDate(),
         enableUtc: false
     });
+
+    $(function(){
+	$('.h_btn').click(function(){
+		$('.remittance_pop_h').show();
+	});
+	$('.w_btn').click(function(){
+		$('.remittance_pop_w').show();
+	});
+	$('.p_btn').click(function(){
+		$('.remittance_pop_p').show();
+	});
+	$('.close_btn').click(function(){
+		$('.remittance_pop_h, .remittance_pop_w, .remittance_pop_p').hide();
+	});
+});
+
+    //복사
+	function copyToClipboard(elementId) {
+		var aux = document.createElement("input");
+		aux.setAttribute("value", document.getElementById(elementId).innerHTML);
+		document.body.appendChild(aux);
+		aux.select();
+		document.execCommand("copy");
+		document.body.removeChild(aux);
+	    alert("복사되었습니다.");
+	}
 </script>
 
 	</body>

@@ -1,10 +1,10 @@
-/*@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+@font-face {
+  font-family: 'Nanum Gothic', sans-serif;
+  /*src: url("../fonts/icomoon/icomoon.eot?srf3rx");*/
+  /*src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");*/
   font-weight: normal;
   font-style: normal;
-}*/
+}
 /* =======================================================
 *
 * 	Template Style 
@@ -18,6 +18,118 @@ body {
   line-height: 1.7;
   color: #828282;
   background: #fff;
+}
+
+.remittance {
+  /*display: block; 
+  width: 100%; 
+  border-top: 1px solid #dddddd; 
+  box-sizing: border-box; 
+  padding: 18% 0 18% 0; 
+  position: relative;*/
+}
+.remittance .remittance_title {
+  /*font-weight: 600; */
+  /*font-size: 17px; */
+  /*color: #414141; */
+  /*padding-bottom: 2%;*/
+}
+.remittance .remittance_sub_title {
+  /*font-weight: normal; */
+  /*font-size: 15px; */
+  /*padding-bottom: 8%; */
+  /*color: #797979;*/
+}
+/* 신랑, 신부 */
+.remittance .remittance_btn_bx p > span {
+  /*font-weight: 600; */
+  /*font-size: 17px; */
+  /*color: #3b3b3b; */
+  /*display: inline-block; */
+  /*line-height: 40px;*/
+}
+/* 버튼 스킨 */
+.remittance .remittance_btn_bx p > a {
+  display: inline-block; 
+  line-height: 41px; 
+  color: #955427; 
+  font-size: 13px; 
+  background-color: #fdd456; 
+  border-radius: 22px; 
+  padding: 0 5.5%; 
+  /*margin-left: 12%; */
+  /*font-family: 'Noto Sans Kr', sans-serif;*/
+
+}
+.remittance .remittance_btn_bx .btn_bx_1 { 
+  /*padding-bottom: 8%;*/
+}
+.remittance .remittance_btn_bx .btn_bx_2 { 
+  /*padding-bottom: 0;*/
+}
+
+.remittance_pop_h, .remittance_pop_w, .remittance_pop_p {
+  position: absolute; 
+  top: 450px; 
+  left: 0; 
+  width: 100%; 
+  background-color: #fff;
+}
+.remittance_pop_h .remittance_pop_inner, .remittance_pop_w .remittance_pop_inner, .remittance_pop_p .remittance_pop_inner {
+  background-color: #fafafa; 
+  border: 1px solid #d0d0d0; 
+  width: 90%; 
+  margin-left: 5%; 
+  padding: 8% 7.5% 5% 7.5%; 
+  box-sizing: border-box; 
+  position: relative;
+}
+.remittance_pop_inner .account_info {
+  color: #232323; 
+  text-align: left; 
+  font-family: 'Noto Sans KR', sans-serif; 
+  font-weight: 600; 
+  line-height: 40px; 
+  border-bottom: 1px solid #aaa; 
+  font-size: 18px; 
+  margin-bottom: 8.5%;
+}
+.remittance_pop_inner .account_c {
+  /*color: #232323; */
+  text-align: left; 
+  font-family: 'Noto Sans KR', sans-serif;  
+  font-size: 18px; 
+  padding-bottom: 2.5%;
+}
+.remittance_pop_inner .account_num {
+  color: #232323; 
+  text-align: left; 
+  font-family: 'Noto Sans KR', sans-serif;  
+  font-size: 18px; 
+  line-height: 18px;
+}
+.remittance_pop_inner .copy_btn {
+  display: block; 
+  line-height: 26px; 
+  width: 25%; 
+  margin-left: 70%; 
+  background-color: #dddddd; 
+  border-radius: 4px; 
+  font-size: 12px; 
+  font-family: 'Noto Sans KR', sans-serif; 
+  color: #232323;
+}
+.remittance_pop_inner .close_btn{ 
+  width: 100%; 
+  line-height: 52px; 
+  line-height: 52px; 
+  color: #955427; 
+  background-color: #fdd456; 
+  display: block; 
+  border-radius: 5px; 
+  margin-top: 10%; 
+  font-family: 'Noto Sans KR', sans-serif; 
+  font-size: 18px;
 }
 
 #page {
@@ -310,15 +422,15 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.0);
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
   z-index: 10;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 750px) {
   .fh5co-cover {
-    height: 600px;
+    height: 750px;
   }
 }
 .fh5co-cover .display-t,
@@ -330,7 +442,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t,
   .fh5co-cover .display-tc {
-    height: 600px;
+    height:1100px;
   }
 }
 .fh5co-cover.fh5co-cover-sm {
@@ -941,8 +1053,8 @@ form label {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   background: rgba(241, 78, 149, 0.6);
   margin: 0 4px;
   -webkit-border-radius: 50%;
@@ -968,8 +1080,8 @@ form label {
   /* countdown block inner div */
   display: table-cell;
   vertical-align: middle;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
 }
 
 .simply-countdown > .simply-section .simply-amount,
@@ -980,14 +1092,14 @@ form label {
 }
 
 .simply-countdown > .simply-section .simply-amount {
-  font-size: 30px;
+  font-size: 15px;
   /* amounts */
 }
 
 .simply-countdown > .simply-section .simply-word {
   color: rgba(255, 255, 255, 0.7);
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 7px;
   /* words */
 }
 
