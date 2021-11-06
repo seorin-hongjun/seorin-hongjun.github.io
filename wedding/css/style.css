@@ -412,12 +412,14 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 1500px;
   background-size: cover;
   background-repeat: no-repeat;
+  /*background-position: center;*/
   position: relative;
   width: 100%;
 }
 .fh5co-cover .overlay {
   z-index: 0;
   position: absolute;
+  /*position: center;*/
   bottom: 0;
   top: 0;
   left: 0;
