@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Nanum Myeongjo', serif;
   /*src: url("../fonts/icomoon/icomoon.eot?srf3rx");*/
   /*src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");*/
   font-weight: normal;
@@ -11,8 +11,7 @@
 *
 * ======================================================= */
 body {
-  /*font-family: "Work Sans", Arial, sans-serif;*/
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Nanum Myeongjo', serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -58,7 +57,7 @@ body {
   border-radius: 22px; 
   padding: 0 5.5%; 
   /*margin-left: 12%; */
-  /*font-family: 'Noto Sans Kr', sans-serif;*/
+  font-family: 'Nanum Myeongjo', serif;
 
 }
 .remittance .remittance_btn_bx .btn_bx_1 { 
@@ -87,7 +86,7 @@ body {
 .remittance_pop_inner .account_info {
   color: #232323; 
   text-align: left; 
-  font-family: 'Noto Sans KR', sans-serif; 
+  font-family: 'Nanum Myeongjo', serif;
   font-weight: 600; 
   line-height: 40px; 
   border-bottom: 1px solid #aaa; 
@@ -97,14 +96,14 @@ body {
 .remittance_pop_inner .account_c {
   /*color: #232323; */
   text-align: left; 
-  font-family: 'Noto Sans KR', sans-serif;  
+  font-family: 'Nanum Myeongjo', serif;
   font-size: 18px; 
   padding-bottom: 2.5%;
 }
 .remittance_pop_inner .account_num {
   color: #232323; 
   text-align: left; 
-  font-family: 'Noto Sans KR', sans-serif;  
+  font-family: 'Nanum Myeongjo', serif;
   font-size: 18px; 
   line-height: 18px;
 }
@@ -116,7 +115,7 @@ body {
   background-color: #dddddd; 
   border-radius: 4px; 
   font-size: 12px; 
-  font-family: 'Noto Sans KR', sans-serif; 
+  font-family: 'Nanum Myeongjo', serif;
   color: #232323;
 }
 .remittance_pop_inner .close_btn{ 
@@ -128,7 +127,7 @@ body {
   display: block; 
   border-radius: 5px; 
   margin-top: 10%; 
-  font-family: 'Noto Sans KR', sans-serif; 
+  font-family: 'Nanum Myeongjo', serif;
   font-size: 18px;
 }
 
@@ -177,7 +176,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  /*font-family: "Work Sans", Arial, sans-serif;*/
+  font-family: 'Nanum Myeongjo', serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -216,7 +215,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   line-height: 40px;
-  /*font-family: "Sacramento", Arial, serif;*/
+  font-family: 'Nanum Myeongjo', serif;
 }
 .fh5co-nav a {
   padding: 5px 10px;
@@ -959,7 +958,7 @@ form label {
   margin-bottom: 0px;
   font-size: 100px;
   line-height: 1.5;
-  /*font-family: "Sacramento", Arial, serif;*/
+  font-family: 'Nanum Myeongjo', serif;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
@@ -1055,9 +1054,11 @@ form label {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 50px;
-  height: 50px;
-  background: rgba(241, 78, 149, 0.6);
+  width: 60px;
+  height: 60px;
+  /*background: rgba(241, 78, 149, 0.6);*/
+  /*background: rgba(109, 109, 116, 0.5);*/
+  background: rgba(255, 255, 255, 0.5);
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1082,14 +1083,16 @@ form label {
   /* countdown block inner div */
   display: table-cell;
   vertical-align: middle;
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
 }
 
 .simply-countdown > .simply-section .simply-amount,
 .simply-countdown > .simply-section .simply-word {
   display: block;
-  color: white;
+  /*color: white;*/
+  /*color: black;*/
+  color: rgba(100, 100, 109, 1.0);
   /* amounts and words */
 }
 
@@ -1099,7 +1102,8 @@ form label {
 }
 
 .simply-countdown > .simply-section .simply-word {
-  color: rgba(255, 255, 255, 0.7);
+  /*color: rgba(255, 255, 255, 0.7);*/
+  color: rgba(100, 100, 109, 1.0);
   text-transform: uppercase;
   font-size: 7px;
   /* words */
@@ -1180,8 +1184,9 @@ form label {
   }
 }
 .couple-half h3 {
-  /*font-family: "Sacramento", Arial, serif;*/
-  color: #F14E95;
+  font-family: 'Nanum Myeongjo', serif;
+  /*color: #F14E95;*/
+  color:  rgba(99, 100, 102, 1.0);
   opacity:0.6;
   font-size: 30px;
 }
@@ -1297,9 +1302,10 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #F14E95;
+  /*color: #F14E95;*/
+  color: rgba(109, 109, 116, 1.0);
   opacity:0.6;
-  /*font-family: "Sacramento", Arial, serif;*/
+  font-family: 'Nanum Myeongjo', serif;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
@@ -1591,7 +1597,7 @@ form label {
 #fh5co-offcanvas ul li.offcanvas-has-dropdown > a:after {
   position: absolute;
   right: 0px;
-  /*font-family: 'icomoon';*/
+  font-family: 'Nanum Myeongjo', serif;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -1764,7 +1770,7 @@ form label {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  /*font-family: "Work Sans", Arial, sans-serif;*/
+  font-family: 'Nanum Myeongjo', serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
