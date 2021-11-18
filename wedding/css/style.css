@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 body {
@@ -20,11 +20,11 @@ body {
 }
 
 .remittance {
-  /*display: block; 
-  width: 100%; 
-  border-top: 1px solid #dddddd; 
-  box-sizing: border-box; 
-  padding: 18% 0 18% 0; 
+  /*display: block;
+  width: 100%;
+  border-top: 1px solid #dddddd;
+  box-sizing: border-box;
+  padding: 18% 0 18% 0;
   position: relative;*/
 }
 .remittance .remittance_title {
@@ -49,84 +49,84 @@ body {
 }
 /* 버튼 스킨 */
 .remittance .remittance_btn_bx p > a {
-  display: inline-block; 
-  line-height: 41px; 
-  color: #955427; 
-  font-size: 13px; 
-  background-color: #fdd456; 
-  border-radius: 22px; 
-  padding: 0 5.5%; 
+  display: inline-block;
+  line-height: 41px;
+  color: #955427;
+  font-size: 13px;
+  background-color: #fdd456;
+  border-radius: 22px;
+  padding: 0 5.5%;
   /*margin-left: 12%; */
   font-family: 'Nanum Myeongjo', serif;
 
 }
-.remittance .remittance_btn_bx .btn_bx_1 { 
+.remittance .remittance_btn_bx .btn_bx_1 {
   /*padding-bottom: 8%;*/
 }
-.remittance .remittance_btn_bx .btn_bx_2 { 
+.remittance .remittance_btn_bx .btn_bx_2 {
   /*padding-bottom: 0;*/
 }
 
 .remittance_pop_h, .remittance_pop_w, .remittance_pop_p {
-  position: absolute; 
-  top: 450px; 
-  left: 0; 
-  width: 100%; 
+  position: absolute;
+  top: 450px;
+  left: 0;
+  width: 105%;
   background-color: #fff;
 }
 .remittance_pop_h .remittance_pop_inner, .remittance_pop_w .remittance_pop_inner, .remittance_pop_p .remittance_pop_inner {
-  background-color: #fafafa; 
-  border: 1px solid #d0d0d0; 
-  width: 90%; 
-  margin-left: 5%; 
-  padding: 8% 7.5% 5% 7.5%; 
-  box-sizing: border-box; 
+  background-color: #fafafa;
+  border: 2px solid #d0d0d0;
+  width: 105%;
+  margin-left: -5%;
+  padding: 8% 7.5% 5% 7.5%;
+  box-sizing: border-box;
   position: relative;
 }
 .remittance_pop_inner .account_info {
-  color: #232323; 
-  text-align: left; 
+  color: #232323;
+  text-align: left;
   font-family: 'Nanum Myeongjo', serif;
-  font-weight: 600; 
-  line-height: 40px; 
-  border-bottom: 1px solid #aaa; 
-  font-size: 18px; 
+  font-weight: 600;
+  line-height: 40px;
+  border-bottom: 1px solid #aaa;
+  font-size: 18px;
   margin-bottom: 8.5%;
 }
 .remittance_pop_inner .account_c {
   /*color: #232323; */
-  text-align: left; 
+  text-align: left;
   font-family: 'Nanum Myeongjo', serif;
-  font-size: 18px; 
+  font-size: 18px;
   padding-bottom: 2.5%;
 }
 .remittance_pop_inner .account_num {
-  color: #232323; 
-  text-align: left; 
+  color: #232323;
+  text-align: left;
   font-family: 'Nanum Myeongjo', serif;
-  font-size: 18px; 
+  font-size: 18px;
   line-height: 18px;
 }
 .remittance_pop_inner .copy_btn {
-  display: block; 
-  line-height: 26px; 
-  width: 25%; 
-  margin-left: 70%; 
-  background-color: #dddddd; 
-  border-radius: 4px; 
-  font-size: 12px; 
+  display: block;
+  line-height: 26px;
+  width: 25%;
+  margin-left: 70%;
+  background-color: #dddddd;
+  border-radius: 4px;
+  font-size: 12px;
   font-family: 'Nanum Myeongjo', serif;
   color: #232323;
 }
-.remittance_pop_inner .close_btn{ 
-  width: 100%; 
-  line-height: 52px; 
-  line-height: 52px; 
-  color: #955427; 
-  background-color: #fdd456; 
-  display: block; 
-  border-radius: 5px; 
-  margin-top: 10%; 
+.remittance_pop_inner .close_btn{
+  width: 100%;
+  line-height: 52px;
+  line-height: 52px;
+  color: #955427;
+  background-color: #fdd456;
+  display: block;
+  border-radius: 5px;
+  margin-top: 10%;
   font-family: 'Nanum Myeongjo', serif;
   font-size: 18px;
 }
@@ -1960,7 +1960,7 @@ form label {
 }
 
 .js .animate-box {
-  opacity: 0;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
