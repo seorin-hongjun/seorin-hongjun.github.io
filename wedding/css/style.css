@@ -71,14 +71,15 @@ body {
   position: absolute;
   top: 450px;
   left: 0;
-  width: 105%;
+  width: 90%;
+  margin-left: 5%;
   background-color: #fff;
 }
 .remittance_pop_h .remittance_pop_inner, .remittance_pop_w .remittance_pop_inner, .remittance_pop_p .remittance_pop_inner {
   background-color: #fafafa;
   border: 2px solid #d0d0d0;
-  width: 105%;
-  margin-left: -5%;
+  width: 100%;
+  margin-left: 0%;
   padding: 8% 7.5% 5% 7.5%;
   box-sizing: border-box;
   position: relative;
@@ -516,10 +517,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .event-wrap,
 #fh5co-event .event-wrap {
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   background: rgba(255, 255, 255, 0.1);
-  padding: 30px;
-  width: 100%;
+  padding: 10px;
+  width: 110%;
+  margin-left: -5%;
   float: left;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
