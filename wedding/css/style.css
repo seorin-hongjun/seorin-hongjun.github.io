@@ -670,8 +670,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 480px) {
   .timeline > li > .timeline-badge {
-    width: 125px;
-    height: 125px;
+
+    width: 115px;
+    height: 115px;
     margin-left: -20px !important;
   }
 }
