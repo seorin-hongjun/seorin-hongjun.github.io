@@ -160,13 +160,13 @@ body {
 }
 
 a {
-  color: #F14E95;
+  color: #828282;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #F14E95;
+  color: #828282;
   outline: none;
   text-decoration: none;
 }
@@ -184,17 +184,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #F14E95;
+  background: #828282;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #F14E95;
+  background: #828282;
 }
 
 ::selection {
   color: #fff;
-  background: #F14E95;
+  background: #828282;
 }
 
 .fh5co-nav {
@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 .fh5co-nav ul li.btn-cta a {
-  color: #F14E95;
+  color: #828282;
 }
 .fh5co-nav ul li.btn-cta a span {
   background: #fff;
@@ -886,7 +886,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #F14E95;
+  color: #828282;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -905,7 +905,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .fh5co-contact-info ul li:before {
-  color: #F14E95;
+  color: #828282;
   position: absolute;
   left: 0;
   top: .05em;
@@ -997,7 +997,6 @@ form label {
 .fh5co-cover .display-tc .btn {
   padding: 15px 20px;
   background: #fff !important;
-  /*color: #F14E95;*/
   border: none !important;
   font-size: 14px;
   text-transform: uppercase;
