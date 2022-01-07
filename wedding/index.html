@@ -467,15 +467,24 @@
                <script src="js/main.js"></script>
                <script>
                   // var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
-                  // var d = new Date(2022,1,8,12,10);
-                  var d = new Date(2022,1,10,12,10);
-                  // var d = new Date('2022-01-10T12:10:00');
+                  var d = new Date(2022, 1, 8, 12, 10);
                   
                   // default example
                   simplyCountdown('.simply-countdown-one', {
                       year: d.getFullYear(),
                       month: d.getMonth(),
-                      day: d.getDate()
+                      day: d.getDate(),
+                      hours: d.getHours(),
+                      minutes: d.getMinutes(),
+                      seconds: d.getSeconds(),
+                      enableUtc: false
+                      // year: d.getUTCFullYear(),
+                      // month: d.getUTCMonth(),
+                      // day: d.getUTCDate(),
+                      // hours: d.getUTCHours(),
+                      // minutes: d.getUTCMinutes(),
+                      // seconds: d.getUTCSeconds(),
+                      // enableUtc: true
                   });
                   
                   //jQuery example
@@ -483,7 +492,17 @@
                       year: d.getFullYear(),
                       month: d.getMonth(),
                       day: d.getDate(),
-                      enableUtc: true
+                      hours: d.getHours(),
+                      minutes: d.getMinutes(),
+                      seconds: d.getSeconds(),
+                      enableUtc: false
+                      // year: d.getUTCFullYear(),
+                      // month: d.getUTCMonth(),
+                      // day: d.getUTCDate(),
+                      // hours: d.getUTCHours(),
+                      // minutes: d.getUTCMinutes(),
+                      // seconds: d.getUTCSeconds(),
+                      // enableUtc: true
                   });
                   
                   $(function(){
